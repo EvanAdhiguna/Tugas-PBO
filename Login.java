@@ -1,56 +1,43 @@
 package TUGAS_PBO;
 
 public class Login {
-    private String usernameUser, passwordUser,
-                   usernameAdmin1, passwordAdmin1,
-                   usernameAdmin2, passwordAdmin2;
+
+    private String username_user,password_user,
+            username_admin,password_admin;
 
     public Login(){
-        usernameUser = "pelanggan";
-        passwordUser = "password";
+        username_user = "customer";
+        password_user = "kelazz";
 
-        usernameAdmin1 = "Tara";
-        passwordAdmin1 = "12345";
-
-        usernameAdmin2 = "Evan";
-        passwordAdmin2 = "54321";
+        username_admin = "tara";
+        password_admin = "12345";
     }
 
-    public void setUsernameUser(String usernameUser){
-        this.usernameUser = usernameUser;
+    //setter
+    public void setUsername_user(String username_user){
+        this.username_user = username_user;
     }
-    public void setPasswordUser(String passwordUser){
-        this.passwordUser = passwordUser;
+    public void setPassword_user(String password_user){
+        this.password_user = password_user;
     }
-    public void setUsernameAdmin1(String usernameAdmin1){
-        this.usernameAdmin1 = usernameAdmin1;
+    public void setUsername_admin(String username_admin){
+        this.username_admin = username_admin;
     }
-    public void setPasswordAdmin1(String passwordAdmin1){
-        this.passwordAdmin1 = passwordAdmin1;
-    }
-    public void setUsernameAdmin2(String usernameAdmin2){
-        this.usernameAdmin2 = usernameAdmin2;
-    }
-    public void setPasswordAdmin2(String passwordAdmin2){
-        this.passwordAdmin2 = passwordAdmin2;
+    public void setPassword_admin(String password_admin){
+        this.password_admin = password_admin;
     }
 
-    public String getUsernameUser() {
-        return usernameUser;
+    //getter
+    public String getUsername_user() {
+        return username_user;
     }
-    public String getPasswordUser() {
-        return passwordUser;
+    public String getPassword_user() {
+        return password_user;
     }
-    public String getUsernameAdmin1() {
-        return usernameAdmin1;
+    public String getUsername_admin() {
+        return username_admin;
     }
-    public String getPasswordAdmin1() {
-        return passwordAdmin1;
-    }
-    public String getUsernameAdmin2() {
-        return usernameAdmin2;
-    }
-    public String getPasswordAdmin2() {
-        return passwordAdmin2;
+    public String getPassword_admin() {
+        return password_admin;
     }
 }
