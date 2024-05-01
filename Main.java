@@ -4,75 +4,89 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+    
         String username, password;
         int menuResto;
         int menuOrder;
+
         Scanner scanner = new Scanner(System.in);
         Login user1 = new Login();
+        Admin restaurant = new Admin();
         boolean loggedIn = false;
 
-        while (!loggedIn) {
+
+        while(loggedIn == false) {
             System.out.println("=========== Login ==========");
-            System.out.print("|| Masukkan username : ");
-            username = scanner.next();
-            System.out.print("|| Masukkan password : ");
-            password = scanner.next();
+            System.out.print("| masukan username : ");username = scanner.next();
+            System.out.print("| masukan password : ");password = scanner.next();
             System.out.println("============================");
+            System.out.println("\n");
 
-            if ((username.equals(user1.getUsernameUser()) && password.equals(user1.getPasswordUser())) ||
-                    (username.equals(user1.getUsernameAdmin1()) && password.equals(user1.getPasswordAdmin1())) ||
-                    (username.equals(user1.getUsernameAdmin2()) && password.equals(user1.getPasswordAdmin2()))) {
-                int repeat;
+            if (username.equals(user1.getUsername_user()) && password.equals(user1.getPassword_user()) || username.equals(user1.getUsername_admin()) && password.equals(user1.getPassword_admin())) {
+                int ulang;
                 loggedIn = true;
-                if (username.equals(user1.getUsernameUser())) {
+                if (username.equals(user1.getUsername_user())) {
                     do {
-                        Order.menuOrder();
-
-                        System.out.print("Masukkan opsi yang Anda inginkan ? ");
+                        System.out.println("======== MENU CUSTOMER ========");
+                        System.out.println("| 1. Order Makanan/Minuman     ");
+                        System.out.println("| 2. Lihat Pesanan             ");
+                        System.out.println("| 3. Kembali ke Halaman Login  ");
+                        System.out.println("| 4. Logout                    ");
+                        System.out.println("===============================");
+                        System.out.print("Masukan opsi yang anda inginkan ? ");
                         menuOrder = scanner.nextInt();
-                        switch (menuOrder) {
+                        System.out.println("\n");
+                        switch (menuOrder){
                             case 1:
-                                Order.viewMenu();
+                                restaurant.viewMenu();
                                 break;
                             case 2:
+                                restaurant.viewOrder();
+                                break;
+                            case 3:
                                 loggedIn = false;
                                 break;
+                            case 4:
+                                System.out.println("Anda berhasil logout!");
+                                System.exit(0);
+                                break;
                         }
-                        String message = (loggedIn == false) ? "===========================\n Apakah Anda ingin kembali ke halaman login ?\n1. Ya\n2. Tidak\nPilihan Anda: " : "===========================\n" + //
-                                                        "Apakah Anda ingin memilih menu lain?\n1. Tidak\n2. Ya\nPilihan Anda: ";
-                            System.out.print(message);
-                            repeat = scanner.nextInt();
-                        } while (repeat == 2);
-                    } else if (username.equals(user1.getUsernameAdmin1()) || username.equals(user1.getUsernameAdmin2())) {
-                        do {
-                            Admin.menuAdmin();
-                            System.out.print("Masukkan opsi yang Anda inginkan : ");
-                            menuResto = scanner.nextInt();
-
-                            switch (menuResto) {
-                                case 1:
-                                    Admin.viewRestaurant();
-                                    break;
-                                case 2:
-                                    Admin.addRestaurant();
-                                    break;
-                                case 3:
-                                    Admin.removeRestaurant();
-                                    break;
-                                case 4:
-                                    loggedIn = false;
-                                    break;
-                            }
-                            String message = (loggedIn == false) ? "===========================\n Apakah Anda ingin kembali ke halaman login ?\n1. Ya\n2. Tidak\nPilihan Anda: " : "===========================\n" + //
-                            "Apakah Anda ingin memilih menu lain?\n1. Tidak\n2. Ya\nPilihan Anda: ";
-                            System.out.print(message);
-                            repeat = scanner.nextInt();
-                        } while (repeat == 2);
-                    }
-                } else {
-                    System.out.println("* Username/Password salah!*");
+                        String pesan = (loggedIn == false) ? "Login ulang ? (1 = Tidak/ 2 = Iya) : " : "Apakah anda ingin memilih menu lain? (1 = iya /2 = tidak) : ";
+                        System.out.print(pesan);ulang= scanner.nextInt();
+                    }while(ulang == 1);
+                } else if (username.equals(user1.getUsername_admin())) {
+                    do {
+                        restaurant.menuAdmin();
+                        System.out.print("Masukan opsi yang anda inginkan : ");
+                        menuResto = scanner.nextInt();
+                        System.out.println("\n");
+                        switch (menuResto) {
+                            case 1:
+                                restaurant.viewRestaurant();
+                                break;
+                            case 2:
+                                restaurant.addRestaurant();
+                                break;
+                            case 3:
+                                restaurant.removeRestaurant();
+                                break;
+                            case 4:
+                                loggedIn = false;
+                                break;
+                            case 5:
+                                System.out.println("Anda berhasil logout!");
+                                System.exit(0);
+                                break;
+                        }
+                        String pesan = (loggedIn == false) ? "Login ulang ? (1 = Tidak/ 2 = Iya) : " : "Apakah anda ingin memilih menu lain? (1 = iya /2 = tidak) : ";
+                        System.out.print(pesan);ulang= scanner.nextInt();
+                    }while(ulang == 1);
                 }
+
+            }else{
+                System.out.println("* Username/Password salah!*");
             }
-            scanner.close();   
+
         }
     }
+}
