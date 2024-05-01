@@ -48,6 +48,6 @@ Setelah memilih restoran, customer dapat melihat menu apa saja dari restoran yan
 <img src = "image/list_menu_pesanan.png">
 Setelah memilih menu yang akan dipesan,customer dapat memilih untuk menambah menu yang lain yang dinginkan customer atau melanjutkan ke tahap checkout. Jika customer memilih tambah pesanan, maka akan mengulang proses pada gambar diatas. dan customer juga akan diminta untuk menginputkan jarak pengantaran dari titik customer berada ke lokasi restoran
 
-**8) Melihat Pesanan**<br>
+**9) Melihat Pesanan**<br>
 pada bagian ini sebagai customer dapat melihat pesanan apa saja yang sudah di beli dan total pembayaran yang harus dibayar customer.
 <img src = "image/buat_pesanan.png">
