@@ -9,7 +9,7 @@ public class Login {
         username_user = "customer";
         password_user = "kelazz";
 
-        username_admin = "tara";
+        username_admin = "gilberrt";
         password_admin = "12345";
     }
 
