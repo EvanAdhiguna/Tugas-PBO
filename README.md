@@ -14,7 +14,7 @@ Program makanan online ini memiliki 6 class utama. Kelima class tersebut yaitu A
 Alur jalannya program makanan online adalah sebagai berikut.<br>
 
 **1) Login** <br>
-Peratama pengguna akan dihadapkan dengan tampilan login yang dimana pengguna diminta untuk menginput username dan password. Pada program ini terdapat dua tipe yaitu admin dan customer. Jika pengguna menginputkan [username == customer] dan [password == 54321] maka program akan berjalan sebagai customer sedangkan ketika pengguna menginputkan[username == gilberrt] dan [password == 12345] maka program akan berjalan sebagai admin. <br>
+Peratama pengguna akan dihadapkan dengan tampilan login yang dimana pengguna diminta untuk menginput username dan password. Pada program ini terdapat dua tipe yaitu admin dan customer. Jika pengguna menginputkan [username == customer] dan [password == kelazz] maka program akan berjalan sebagai customer sedangkan ketika pengguna menginputkan[username == evan] dan [password == gacorr] maka program akan berjalan sebagai admin. <br>
 <img src = "IMAGE/loginn.png"><br>Gambar diatas merupakan tampilan dari menu Login. Dapat dilihat pada gambar, menu pengguna akan diminta untuk memasukkan username dan password.
 
 **2) Admin Menu**<br>
@@ -34,7 +34,7 @@ Pilihan terakhir yang tersedia untuk admin adalah menghapus restoran. Tampilan d
 <img src = "IMAGE/hapus_restoran.png"><br>Gambar diatas merupakan tahap dari pilihan hapus restoran. Pada tahap ini, admin memilih pilihan restoran mana yang akan dihapusnya.
 
 **6) Customer**<br>
-Pada bagian ini pengguna akan masuk sebagi customer dengan menginputkan [username == customer] dan [password == 54321] di bagian login tadi. 
+Pada bagian ini pengguna akan masuk sebagi customer dengan menginputkan [username == customer] dan [password == kelazz] di bagian login tadi. 
 
 **7) Menu Customer**<br>
 Pada bagian ini program akan berjalan dan menampilkan menu customer. Tahap ini customer dapat Order makanan/minuman, Lihat pesanan Tampilan dari menu customer dapat dilihat pada gambar dibawah ini.<br>
