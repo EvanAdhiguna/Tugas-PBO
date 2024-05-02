@@ -9,8 +9,8 @@ public class Login {
         username_user = "customer";
         password_user = "kelazz";
 
-        username_admin = "gilberrt";
-        password_admin = "12345";
+        username_admin = "evan";
+        password_admin = "gacorr";
     }
 
     //setter
