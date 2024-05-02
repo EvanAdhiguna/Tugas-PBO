@@ -31,23 +31,23 @@ Selain melihat restoran, admin juga dapat menambahkan restoran. Pada saat menamb
 
 **5) Hapus Restoran**<br>
 Pilihan terakhir yang tersedia untuk admin adalah menghapus restoran. Tampilan dari tahap ini ketika dijalankan dapat dilihat pada gambar dibawah.
-<img src = "image/hapus_restora.png">Gambar diatas merupakan tahap dari pilihan hapus restoran. Pada tahap ini, admin memilih pilihan restoran mana yang akan dihapusnya.
+<img src = "image/hapus_restoran.png">Gambar diatas merupakan tahap dari pilihan hapus restoran. Pada tahap ini, admin memilih pilihan restoran mana yang akan dihapusnya.
 
 **6) Customer**<br>
 Pada bagian ini pengguna akan masuk sebagi customer dengan menginputkan [username == customer] dan [password == 54321] di bagian login tadi. 
-<img src = "image/intro_cu.png">
+<img src = "IMAGE/intro_cu.png">
 
 **7) Menu Customer**<br>
 Pada bagian ini program akan berjalan dan menampilkan menu customer. Tahap ini customer dapat Order makanan/minuman, Lihat pesanan Tampilan dari menu customer dapat dilihat pada gambar dibawah ini.
-<img src = "image/menuCustomer.png"> Gambar diatas merupakan tampilan dari menu customer. 
+<img src = "IMAGE/menuCustomer.png"> Gambar diatas merupakan tampilan dari menu customer. 
 
 **8) Melakukan Pemesanan**<br>
 pada bagian ini sebagai custoer dapat membuat suatu pesanan. Awalanya, customer akan diminta untuk memilih akan memesan dari restoran mana dengan menginputkan nama restoran.
-<img src = "image/melakukanPemesanan.png">
+<img src = "IMAGE/melakukanPemesanan.png">
 Setelah memilih restoran, customer dapat melihat menu apa saja dari restoran yang dipilihnya dan juga dapat memilih menu apa yang akan dipesan dan jumlah yang dipesan.
-<img src = "image/membuatOrderan.png">
+<img src = "IMAGE/membuatOrderan.png">
 Setelah memilih menu yang akan dipesan,customer dapat memilih untuk menambah menu yang lain yang dinginkan customer atau melanjutkan ke tahap checkout. Jika customer memilih tambah pesanan, maka akan mengulang proses pada gambar diatas. dan customer juga akan diminta untuk menginputkan jarak pengantaran dari titik customer berada ke lokasi restoran
 
 **9) Melihat Pesanan**<br>
 pada bagian ini sebagai customer dapat melihat pesanan apa saja yang sudah di beli dan total pembayaran yang harus dibayar customer.
-<img src = "image/billPembayaran.png">
+<img src = "IMAGE/billPembayaran.png">
