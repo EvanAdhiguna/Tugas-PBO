@@ -15,7 +15,7 @@ Alur jalannya program makanan online adalah sebagai berikut.<br>
 
 **1) Login** <br>
 Peratama pengguna akan dihadapkan dengan tampilan login yang dimana pengguna diminta untuk menginput username dan password. Pada program ini terdapat dua tipe yaitu admin dan customer. Jika pengguna menginputkan [username == customer] dan [password == 54321] maka program akan berjalan sebagai customer sedangkan ketika pengguna menginputkan[username == gilberrt] dan [password == 12345] maka program akan berjalan sebagai admin
-<img src = "IMAGE/login.png">Gambar diatas merupakan tampilan dari menu Login. Dapat dilihat pada gambar, menu pengguna akan diminta untuk memasukkan username dan password.
+<img src = "IMAGE/loginn.png">Gambar diatas merupakan tampilan dari menu Login. Dapat dilihat pada gambar, menu pengguna akan diminta untuk memasukkan username dan password.
 
 **2) Admin Menu**<br>
 Ketika pengguna masuk sebagai admin Tampilan awal yang dihadapkan pengguna adalah adalah Admin menu. Pada tahap ini, sebagai admin dapat melihat daftar restoran, menambah restoran, dan menghapus restoran.
