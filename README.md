@@ -58,6 +58,6 @@ Setelah memilih menu yang akan dipesan,customer dapat memilih untuk menambah men
 pada bagian ini sebagai customer dapat melihat pesanan apa saja yang sudah di beli dan total pembayaran yang harus dibayar customer.<br>
 <img src = "IMAGE/billPembayaran.png">
 
-<br>
-<br>
-# **Sekian dari program sederhana kami, Terima kasih**
+## Penutup
+
+Selesai hore!, Terimakasih
