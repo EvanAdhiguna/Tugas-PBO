@@ -5,8 +5,8 @@ I Made Tara Bujawan  2305551139 <br>
 # <p align="center">**Pemesanan Makanan Online**</p>
 
 # **Pengenalan**
-Selamat datang di program Pemesanan Makanan Online!
-Program ini dibuat menggunakan konsep Object Oriented Programming (OOP) dan menggunakan bahasa pemrograman Java. Program ini menggunakan basis Command Line Interface (CLI) dan dijalankan melalui terminal.
+Selamat datang di program Pemesanan Makanan Online! 
+Program ini merupakan sebuah aplikasi sederhana yang memungkinkan pengguna untuk melakukan pemesanan makanan secara online di restoran. Dibuat dengan menggunakan konsep Object Oriented Programming (OOP) dan bahasa pemrograman Java, program ini berinteraksi dengan pengguna melalui Command Line Interface (CLI) dan dijalankan melalui terminal.
 <br>
 
 # **UML Program**
