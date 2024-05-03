@@ -60,4 +60,4 @@ pada bagian ini sebagai customer dapat melihat pesanan apa saja yang sudah di be
 
 ## Penutup
 
-Sekian dari program seerhana kami, Terimakasih
+Sekian dari program sederhana kami, Terimakasih
