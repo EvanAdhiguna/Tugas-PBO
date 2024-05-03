@@ -60,4 +60,4 @@ pada bagian ini sebagai customer dapat melihat pesanan apa saja yang sudah di be
 
 ## Penutup
 
-Selesai hore!, Terimakasih
+Sekian dari program seerhana kami, Terimakasih
