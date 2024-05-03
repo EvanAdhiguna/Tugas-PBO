@@ -34,7 +34,7 @@ Pilihan terakhir yang tersedia untuk admin adalah menghapus restoran. Tampilan d
 <img src = "IMAGE/hapusRestoran.png"><br>Gambar diatas merupakan tahap dari pilihan hapus restoran. Pada tahap ini, admin memilih pilihan restoran mana yang akan dihapusnya.
 
 **6) Customer**<br>
-Pada bagian ini pengguna akan masuk sebagi customer dengan menginputkan [username == customer] dan [password == kelazz] di bagian login tadi. 
+Pada bagian ini pengguna akan masuk sebagi customer dengan menginputkan [username == customer] dan [password == kelazz] di bagian login tadi. <br>
 <img src = "IMAGE/loginCustomer.png"><br> Gambar diatas merupakan username dan password ketika ingin login sebagai customer. <br>
 
 **7) Menu Customer**<br>
@@ -51,5 +51,9 @@ Setelah memilih menu yang tersedia, customer dapat memberi tahu jarak pengantara
 Setelah memilih menu yang akan dipesan,customer dapat memilih untuk menambah menu yang lain yang dinginkan customer atau melanjutkan ke tahap checkout. Jika customer memilih tambah pesanan, maka akan mengulang proses pada gambar diatas. dan customer juga akan diminta untuk menginputkan jarak pengantaran dari titik customer berada ke lokasi restoran
 
 **9) Melihat Pesanan**<br>
-pada bagian ini sebagai customer dapat melihat pesanan apa saja yang sudah di beli dan total pembayaran yang harus dibayar customer.
+pada bagian ini sebagai customer dapat melihat pesanan apa saja yang sudah di beli dan total pembayaran yang harus dibayar customer.<br>
 <img src = "IMAGE/billPembayaran.png">
+
+<br>
+<br>
+# **Sekian dari program sederhana kami, Terima kasih**
