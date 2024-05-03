@@ -16,10 +16,12 @@ public class Main {
 
 
         while(loggedIn == false) {
-            System.out.println("=========== Login ==========");
-            System.out.print("| masukan username : ");username = scanner.next();
-            System.out.print("| masukan password : ");password = scanner.next();
-            System.out.println("============================");
+            System.out.println("||============================||");
+            System.out.println("||            Login           ||");
+            System.out.println("||============================||");
+            System.out.print("|| masukan username : ");username = scanner.next();
+            System.out.print("|| masukan password : ");password = scanner.next();
+            System.out.println("||============================||");
             System.out.println("\n");
 
             if (username.equals(user1.getUsername_user()) && password.equals(user1.getPassword_user()) || username.equals(user1.getUsername_admin()) && password.equals(user1.getPassword_admin())) {
@@ -27,13 +29,15 @@ public class Main {
                 loggedIn = true;
                 if (username.equals(user1.getUsername_user())) {
                     do {
-                        System.out.println("======== MENU CUSTOMER ========");
-                        System.out.println("| 1. Order Makanan/Minuman     ");
-                        System.out.println("| 2. Lihat Pesanan             ");
-                        System.out.println("| 3. Kembali ke Halaman Login  ");
-                        System.out.println("| 4. Logout                    ");
-                        System.out.println("===============================");
-                        System.out.print("Masukan opsi yang anda inginkan ? ");
+                        System.out.println("||============================||");
+                        System.out.println("||        Menu Customer       ||");
+                        System.out.println("||============================||");
+                        System.out.println("|| 1. Order Makanan/Minuman   ||");
+                        System.out.println("|| 2. Lihat Pesanan           ||");
+                        System.out.println("|| 3. Kembali ke Halaman Login||");
+                        System.out.println("|| 4. Logout                  ||");
+                        System.out.println("||============================||");
+                        System.out.print("|| Masukan opsi yang anda inginkan ? ");
                         menuOrder = scanner.nextInt();
                         System.out.println("\n");
                         switch (menuOrder){
@@ -57,7 +61,7 @@ public class Main {
                 } else if (username.equals(user1.getUsername_admin())) {
                     do {
                         restaurant.menuAdmin();
-                        System.out.print("Masukan opsi yang anda inginkan : ");
+                        System.out.print("|| Masukan opsi yang anda inginkan : ");
                         menuResto = scanner.nextInt();
                         System.out.println("\n");
                         switch (menuResto) {
